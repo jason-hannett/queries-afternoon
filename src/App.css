@@ -1,38 +1,197 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.background-picture {
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  /* box-sizing: border-box; */
   display: flex;
   flex-direction: column;
+}
+
+.header-links {
+  height: 60px;
+  /* background-color: rgb(46, 46, 46); */
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding: 0px 150px;
+  position: fixed;
+  top: 0px;
+
+}
+
+
+
+.bootstrap-color {
+  color: rgb(254,209,54);
+  /* font-style: italic; */
+  font-family: 'Kaushan Script';
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.nav-links {
+  /* width: 20%; */
+  display: flex;
+  justify-content: space-between;
+  /* margin-right: 50px; */
+  margin-top: 10px;
+  margin-left: 300px;
+  
+}
+
+.one {
+  margin-right: 20px;
+  font-weight: lighter;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+.one:hover{
+  color: rgb(254,209,54);
+}
+
+.two {
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+.two:hover{
+  color: rgb(254,209,54);
+}
+
+.three {
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+.three:hover{
+  color: rgb(254,209,54);
+}
+
+.four {
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+.four:hover{
+  color: rgb(254,209,54);
+}
+
+.five {
+  margin-right: 20px;
+  font-size: 10px;
+  font-family: 'Montserrat';
+}
+
+.five:hover{
+  color: rgb(254,209,54);
+}
+
+.welcome-container {
+  
+  color: white;
+  flex-direction: column;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 170px;
+
+  
+}
+
+.word-1 {
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Merriweather';
+  margin-bottom: 10px;
+  
+}
+
+.word-2 {
+  font-size: 50px;
+  font-family: 'Montserrat';
+  font-weight: 1000;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+.button {
+  margin-top: 5px;
+  height: 40px;
+  width: 150px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(254,209,54);
+  border-style: none;
+  border-radius: 5%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button:hover {
+  background-color: rgb(255, 201, 6)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.services {
+  height: 50px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Montserrat';
+
+  
+  /* margin-bottom: 1px; */
+}
+
+.under-service {
+  margin-top: 1px;
+  font-family: 'Merriweather';
+  font-style: italic;
+  padding-top: 0px;
+  color: rgb(139, 138, 138);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.emblem-container {
+  height: 100px;
+  width: 70%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 240px;
+  margin-top: 150px;
+  
+}
+
+.lorem-color {
+  color: rgb(139, 138, 138);
+  font-family: 'Merriweather';
+  font-size: 15px;
+}
+
+.laptop {
+  border-radius: 50%;
+  padding-left: 15px;
 }
